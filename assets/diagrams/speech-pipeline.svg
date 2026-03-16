@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="120" viewBox="0 0 520 120">
+  <rect width="520" height="120" fill="#f5f5f5"/>
+  <text x="260" y="28" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">Speech processing pipeline (placeholder)</text>
+  <rect x="20" y="50" width="80" height="40" rx="4" fill="#ffcc80"/>
+  <text x="60" y="75" text-anchor="middle" font-size="10">Audio In</text>
+  <path d="M 110 70 H 150" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <rect x="155" y="50" width="80" height="40" rx="4" fill="#90caf9"/>
+  <text x="195" y="75" text-anchor="middle" font-size="10">ASR</text>
+  <path d="M 245 70 H 285" stroke="#666" stroke-width="2"/>
+  <rect x="290" y="50" width="70" height="40" rx="4" fill="#a5d6a7"/>
+  <text x="325" y="75" text-anchor="middle" font-size="10">NLP</text>
+  <path d="M 365 70 H 405" stroke="#666" stroke-width="2"/>
+  <rect x="410" y="50" width="90" height="40" rx="4" fill="#ce93d8"/>
+  <text x="455" y="75" text-anchor="middle" font-size="10">Report/TTS</text>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#666"/></marker></defs>
+</svg>

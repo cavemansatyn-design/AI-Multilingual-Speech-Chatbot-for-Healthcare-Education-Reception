@@ -1,0 +1,46 @@
+# Web framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# Translation
+deep-translator>=1.11.4
+
+# Text-to-speech
+edge-tts>=6.1.9
+gtts>=2.5.0
+
+# Speech-to-text (Whisper)
+openai-whisper>=20231117
+
+# Optional: transformers for template-based report (if not using external LLM)
+transformers>=4.36.0
+torch>=2.1.0
+accelerate>=0.25.0
+
+# Database
+pymongo>=4.6.0
+
+# Security
+bcrypt>=4.1.2
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Validation & env
+pydantic[email]>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+email-validator>=2.1.0
+
+# HTTP client for optional LLM calls
+httpx>=0.26.0
+
+# Logging & testing
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
+
+# Front-end (optional)
+streamlit>=1.53.0
+
+# PDF generation
+reportlab>=4.0.0
